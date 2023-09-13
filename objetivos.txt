@@ -1,0 +1,6 @@
+1. gerar chaves;
+2. gerar certificados;
+3. gerar assinaturas digitais;
+4. verificar assinaturas digitais;
+5. cifrar/decifrar um texto;
+6. obter o resumo criptográfico de um documento
