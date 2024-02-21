@@ -1,4 +1,9 @@
 package c3
+/*
+To run the code run:
+cd c3
+go test -v
+*/
 
 import (
 	"testing"

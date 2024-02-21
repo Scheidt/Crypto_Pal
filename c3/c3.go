@@ -21,6 +21,7 @@ import (
 
 func CharFrequencyMap(sample string, path string) map[rune]float64 { // create a map [rune] frequency of a letter appearing in the text
 	// if no sample is provided for comparison, a baseline will be created from the file "sampleText.txt"
+	// I never use the first argument, but it can be useful, so I left the option open
 	if sample == "" {
 		sampleFile, err := os.ReadFile(path)
 		if err != nil {

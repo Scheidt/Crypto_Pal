@@ -1,4 +1,9 @@
 package c2
+/*
+To run the code run:
+cd c2
+go test -v
+*/
 
 import (
 	"encoding/hex"

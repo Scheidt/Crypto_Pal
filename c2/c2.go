@@ -13,17 +13,8 @@ package c2
 //746865206b696420646f6e277420706c6179"
 
 import (
-	"encoding/hex"
 	"fmt"
 )
-
-func decodeHex(v string) ([]byte, error) {
-	bi, err := hex.DecodeString(v)
-	if err != nil {
-		return nil, err
-	}
-	return bi, nil
-}
 
 func compareXOR(v1, v2 []byte) ([]byte, error) {
 	if len(v1) != len(v2) {

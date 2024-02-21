@@ -1,4 +1,9 @@
 package c1
+/*
+To run the code run:
+cd c1
+go test -v
+*/
 
 import (
 	"testing"
@@ -12,7 +17,7 @@ func Test_challange_1(test *testing.T) {
 		test.Fatal(err)
 	}
 	if value != expectedResult {
-		test.Fatal("wrong! Your response is: ", value, "should be: ", expectedResult)
+		test.Fatal("result wrong! Your response is: ", value, "should be: ", expectedResult)
 	}
 	test.Logf("It worked!")
 }

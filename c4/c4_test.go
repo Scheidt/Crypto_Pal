@@ -1,4 +1,9 @@
 package c4
+/*
+To run the code run:
+cd c4
+go test -v
+*/
 
 import (
 	"testing"
