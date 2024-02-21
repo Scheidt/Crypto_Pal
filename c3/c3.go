@@ -1,4 +1,5 @@
 package c3
+//https://cryptopals.com/sets/1/challenges/3
 
 // method used:
 	// https://en.wikipedia.org/wiki/Letter_frequency

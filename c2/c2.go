@@ -1,4 +1,5 @@
 package c2
+//https://cryptopals.com/sets/1/challenges/2
 
 import (
 	"encoding/hex"
