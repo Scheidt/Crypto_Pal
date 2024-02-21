@@ -1,4 +1,5 @@
 package c5
+//https://cryptopals.com/sets/1/challenges/5
 
 /* Implement repeating-key XOR
 Here is the opening stanza of an important work of the English language:

@@ -13,16 +13,15 @@ package c2
 //746865206b696420646f6e277420706c6179"
 
 import (
-	"fmt"
 )
 
-func compareXOR(v1, v2 []byte) ([]byte, error) {
-	if len(v1) != len(v2) {
-		return nil, fmt.Errorf("the two buffers must be of equal lengths")
+func CompareXOR(num1, num2 []byte) ([]byte) {
+	if len(num1) != len(num2) {
+		panic("the two buffers must be of equal lengths")
 	}
-	xored := make([]byte, len(v1))
-	for i := range v1 {
-		xored[i] = v1[i] ^ v2[i]
+	xored := make([]byte, len(num1))
+	for i := range num1 {
+		xored[i] = num1[i] ^ num2[i]
 	}
-	return xored, nil
+	return xored
 }

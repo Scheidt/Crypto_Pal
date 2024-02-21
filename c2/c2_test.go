@@ -25,11 +25,8 @@ func Test_c2(test *testing.T) {
 	}
 	
 
-	result, err := compareXOR([]byte(value1), []byte(value2))
+	result := CompareXOR([]byte(value1), []byte(value2))
 
-	if err != nil {
-		test.Fatal(err)
-	}
 	resultStringfied := hex.EncodeToString(result)
 	if resultStringfied != expectedResult {
 		test.Fatal("wrong! Your response is: ", resultStringfied, "should be: ", expectedResult)
